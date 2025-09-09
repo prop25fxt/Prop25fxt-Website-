@@ -29,7 +29,7 @@ Prop25fxt provides traders with:
 
 ---
 
-## 🚀 How to View Locally
+##  How to View Locally
 If you want to view or edit the website on your computer:
 ```bash
 git clone https://github.com/username/repo-name.git
