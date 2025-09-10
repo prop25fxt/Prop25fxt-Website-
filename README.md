@@ -1,39 +1,42 @@
-# Prop25fxt – Forex Trading Teaching, Coaching & Mentorship
+# 🌐 Prop25fxt – Forex Trading Mentorship Website
 
-Welcome to the official repository of **Prop25fxt**, a platform dedicated to helping traders master Forex markets through professional teaching, coaching, and mentorship.  
-
-This repository hosts the source code for the official Prop25fxt website, powered by **GitHub Pages**.  
-
----
-
-##  Live Website[
-[https://github.com/prop25fxt/Prop25fxt)](https://github.com/prop25fxt/Prop25fxt-Website-/tree/main)
-
+Welcome to the **Prop25fxt** official website repository.  
+This site was created to showcase our Forex trading mentorship, services, and contact details.  
+It is hosted for free using **GitHub Pages**.
 
 ---
 
-##  About Prop25fxt
-Prop25fxt provides traders with:
-- 1-on-1 mentorship programs  
-- Proven trading strategies  
-- Guidance on discipline, risk management & consistency  
-- A supportive trading community  
+## 🚀 Live Website
+🔗 [Visit Prop25fxt Website](https://your-username.github.io/your-repo-name/)
 
 ---
 
-##  Repository Contents
-- `index.html` → Main landing page  
-- `style.css` → Website styling  
-- `script.js` → (Optional) Website interactivity  
-- `images/` → Logo and website images  
+## 📂 Pages Included
+- **Home** – Introduction and quick overview  
+- **About** – Our story and mission  
+- **Services** – Forex coaching, strategies, and mentorship programs  
+- **Testimonials** – Feedback from our students  
+- **Contact** – How to reach us (Email & Telegram)  
 
 ---
 
-##  How to View Locally
-If you want to view or edit the website on your computer:
-```bash
-git clone https://github.com/username/repo-name.git
-cd repo-name
-📧 Email: prop25fxt@gmail.com
-💬 Telegram: https://t.me/+nKjT1ffj_3A3YmU0
-https://t.me/Prop25fxt
+## 📧 Contact
+- Email: **prop25fxt@gmail.com**  
+- Telegram: [Join Here](https://t.me/+u8A9f2NMulg1NTU0)  
+
+---
+
+## 🛠️ How to Use
+1. Clone or download this repository.  
+2. Open `index.html` in your browser to view the website locally.  
+3. Customize text, images, and styles as needed.  
+4. Push updates to GitHub and enable **GitHub Pages** in your repo settings.  
+
+---
+
+## 📸 Preview
+![Website Screenshot](screenshot.png)
+
+---
+
+© 2025 Prop25fxt – All Rights Reserved.
