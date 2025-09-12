@@ -1,42 +1,29 @@
-# 🌐 Prop25fxt – Forex Trading Mentorship Website
+# Prop25FXT Website
 
-Welcome to the **Prop25fxt** official website repository.  
-This site was created to showcase our Forex trading mentorship, services, and contact details.  
-It is hosted for free using **GitHub Pages**.
+A professional and responsive website for **Prop25FXT - Forex the Easy Way**.
 
----
+## 🌍 Live Demo
+[Visit Website](https://prop25fxt.github.io/Prop25fxt-Website-/)
 
-## 🚀 Live Website
-🔗 [Visit Prop25fxt Website](https://your-username.github.io/your-repo-name/)
+## 🚀 Features
+- Responsive design (works on all devices)
+- Hero section with slogan and logo
+- Services section (1-on-1 Mentorship, Prop Firm Challenge, Coaching, Risk Management, Community)
+- Explore Mentorship (Basic, Standard, Premium packages)
+- Contact form (ready for EmailJS integration)
+- Social media links (Telegram, WhatsApp, placeholders for others)
+- Clean and professional design
 
----
+## 📂 Project Structure
+- `index.html` → Main structure
+- `style.css` → Styles and layout
+- `script.js` → Contact form logic
+- `README.md` → Project documentation
 
-## 📂 Pages Included
-- **Home** – Introduction and quick overview  
-- **About** – Our story and mission  
-- **Services** – Forex coaching, strategies, and mentorship programs  
-- **Testimonials** – Feedback from our students  
-- **Contact** – How to reach us (Email & Telegram)  
+## 🔧 How to Use
+1. Upload files to your GitHub repository.
+2. Enable **GitHub Pages** in repository settings.
+3. Visit your live website using the provided GitHub Pages link.
 
----
-
-## 📧 Contact
-- Email: **prop25fxt@gmail.com**  
-- Telegram: [Join Here](https://t.me/+u8A9f2NMulg1NTU0)  
-
----
-
-## 🛠️ How to Use
-1. Clone or download this repository.  
-2. Open `index.html` in your browser to view the website locally.  
-3. Customize text, images, and styles as needed.  
-4. Push updates to GitHub and enable **GitHub Pages** in your repo settings.  
-
----
-
-## 📸 Preview
-![Website Screenshot](screenshot.png)
-
----
-
-© 2025 Prop25fxt – All Rights Reserved.
+## ✉️ Contact
+For mentorship and inquiries, connect via [Telegram](https://t.me/+u8A9f2NMulg1NTU0) or [WhatsApp](https://wa.me/239011857669).
