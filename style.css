@@ -1,68 +1,87 @@
-/* style.css */
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #f5f7fa;
-  color: #222;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
 }
-
 header {
-  background: #0a2540;
-  color: white;
-  padding: 1rem;
-  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 1rem 2rem;
 }
-
-header img {
-  max-width: 120px;
-  height: auto;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-nav {
-  background: #133c64;
-  text-align: center;
-  padding: 0.5rem;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
 }
-
-nav a {
-  color: white;
-  margin: 0 1rem;
+.nav-links a {
+  color: #fff;
   text-decoration: none;
-  font-weight: bold;
 }
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.container {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 1rem;
+.hero {
+  background: linear-gradient(to right, #007bff, #00c851);
+  color: #fff;
+  padding: 5rem 2rem;
   text-align: center;
 }
-
+.services, .mentorship, .contact {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.plan {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
 .btn {
   display: inline-block;
-  margin: 1rem;
-  padding: 0.8rem 1.5rem;
-  background: #0a2540;
-  color: white;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: #fff;
   text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.3s ease;
+  border-radius: 5px;
 }
-
-.btn:hover {
-  background: #133c64;
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 400px;
+  margin: 0 auto 1rem;
 }
-
+.contact input, .contact textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact button {
+  background: #00c851;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.social-links a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #007bff;
+}
 footer {
-  background: #0a2540;
-  color: white;
+  background: #222;
+  color: #fff;
   text-align: center;
   padding: 1rem;
-  margin-top: 3rem;
-  font-size: 0.9rem;
 }
