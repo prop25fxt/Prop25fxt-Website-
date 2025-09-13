@@ -3,88 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prop25FXT - Forex the Easy Way</title>
+  <title>Prop25FXT - Forex Made Easy</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-  <!-- Header -->
   <header>
-    <nav class="navbar">
-      <div class="logo">
-        <img src="logo.png" alt="Prop25FXT Logo">
-      </div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#mentorship">Explore Mentorship</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container header-container">
+      <img src="logo.png" alt="Prop25FXT Logo" class="logo">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a>
+            <ul class="dropdown">
+              <li><a href="#mentorship">1-on-1 Mentorship</a></li>
+              <li><a href="#propfirm">Passing Prop Firm Challenge</a></li>
+              <li><a href="#coaching">Personal Coaching Sessions</a></li>
+              <li><a href="#risk">Risk Management Training</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#community">Community Support & Growth</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- Hero Section -->
   <section id="home" class="hero">
-    <h1>Prop25FXT</h1>
-    <p>Forex the Easy Way</p>
+    <div class="hero-text">
+      <h1>Welcome to Prop25FXT</h1>
+      <p>Forex the Easy Way – Learn, Grow, and Succeed with our mentorship programs.</p>
+      <a href="#mentorship-packages" class="btn">Explore Mentorship</a>
+    </div>
   </section>
 
-  <!-- Services Section -->
-  <section id="services" class="services">
+  <section id="services" class="section">
     <h2>Our Services</h2>
-    <div class="service-list">
-      <div class="service">1-on-1 Mentorship</div>
-      <div class="service">Passing Prop Firm Challenge</div>
-      <div class="service">Personal Coaching Sessions</div>
-      <div class="service">Risk Management Training</div>
-      <div class="service">Community Support and Growth</div>
+    <div class="services-grid">
+      <div class="service-card" id="mentorship">
+        <h3>1-on-1 Mentorship</h3>
+        <p>Personalized mentorship tailored to your trading goals.</p>
+      </div>
+      <div class="service-card" id="propfirm">
+        <h3>Passing Prop Firm Challenge</h3>
+        <p>Guidance to pass prop firm challenges and scale your capital.</p>
+      </div>
+      <div class="service-card" id="coaching">
+        <h3>Personal Coaching Sessions</h3>
+        <p>Interactive sessions to boost your trading confidence.</p>
+      </div>
+      <div class="service-card" id="risk">
+        <h3>Risk Management Training</h3>
+        <p>Learn effective risk management strategies to protect your account.</p>
+      </div>
     </div>
   </section>
 
-  <!-- Mentorship Section -->
-  <section id="mentorship" class="mentorship">
-    <h2>Explore Mentorship</h2>
-    <div class="plans">
-      <div class="plan">
+  <section id="mentorship-packages" class="section packages">
+    <h2>Mentorship Packages</h2>
+    <div class="packages-grid">
+      <div class="package-card">
         <h3>Basic</h3>
-        <p>Starter mentorship for beginners.</p>
+        <p>Introduction to trading with 1-on-1 support.</p>
+        <button class="btn">Choose Basic</button>
       </div>
-      <div class="plan">
+      <div class="package-card">
         <h3>Standard</h3>
-        <p>Deeper guidance with live sessions.</p>
+        <p>Comprehensive mentorship with strategy building.</p>
+        <button class="btn">Choose Standard</button>
       </div>
-      <div class="plan">
+      <div class="package-card">
         <h3>Premium</h3>
-        <p>Full mentorship with lifetime support.</p>
+        <p>Full mentorship with advanced techniques & lifetime support.</p>
+        <button class="btn">Choose Premium</button>
       </div>
     </div>
-    <a href="#mentorship" class="btn">Get 1-on-1 Forex Mentorship</a>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
+  <section id="contact" class="section contact">
     <h2>Contact Us</h2>
-    <form id="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
     </form>
-
-    <div class="social-links">
-      <a href="https://t.me/+u8A9f2NMulg1NTU0" target="_blank">Telegram</a>
+    <div class="social-icons">
+      <a href="https://t.me/Prop25fxt" target="_blank">Telegram</a>
       <a href="https://wa.me/239011857669" target="_blank">WhatsApp</a>
-      <a href="#" target="_blank">Twitter</a>
-      <a href="#" target="_blank">Facebook</a>
-      <a href="#" target="_blank">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Prop25FXT. All rights reserved.</p>
-  </footer>
+  <section id="community" class="section">
+    <h2>Community Support & Growth</h2>
+    <p>Join a supportive community of traders where we grow together and share insights for consistent success.</p>
+  </section>
 
-  <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2025 Prop25FXT. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
